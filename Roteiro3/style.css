@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+main {
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, h3 {
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.cabecalho {
+    background-color: #9e7676;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.cabecalho__titulo {
+    text-align: center;
+}
+
+.cabecalho__titulo::after {
+    content: '';
+    display: block;
+    width: 510px;
+    height: 4px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.alinhar-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    margin-top: 40px;
+    width: 350px;
+    height: 30px;
+    background-color: #e0d3d3;
+}
+
+.botao {
+    margin-top: 40px;
+    margin-left: 5px;
+    height: 30px;
+    background-color: #e0d3d3;
+}
+
+.alinhar-fbox {
+    display: flex;
+}
+
+.radios {
+    padding: 0;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    column-gap: 10px;
+}
+
+.radio-pair {
+    display: flex;
+    gap: 4px;
+}

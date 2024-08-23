@@ -113,7 +113,6 @@ inverteTextoAsync(123)
 /**
  * QUESTÃO 05
  */
-
 const crypto = require('crypto');
 
 // Criptografia de dados
